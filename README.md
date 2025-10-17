@@ -1,6 +1,6 @@
 Projeto Integrado Multidisciplinar
 
-2° Semestre 2025
+2° Semestre de 2025
 
 Projeto de pesquisa que faz parte do método de avaliação da Instituição de ensino superior UNIP.
 
@@ -14,7 +14,7 @@ Projeto de pesquisa que faz parte do método de avaliação da Instituição de 
 #COMPILAÇÃO#
     Caso o sistema não funcione na primeira tentativa, talvez seja necessário recompilar as bibliotecas dinâmicas, de acordo com o seu Sistema Operacional.
 
-    Terminal  /?/?/PIM_FINAL
+    Terminal  ././PIM_SEM2_ADS_2025
 
     (windows) -> gcc -shared -o process.dll process.c 
     (Linux) -> gcc -shared -o libprocess.so -fPIC process.c
@@ -25,7 +25,7 @@ Projeto de pesquisa que faz parte do método de avaliação da Instituição de 
 
 #EXECUÇÃO#
 
-    Terminal ?/?/PIM_FINAL
+    Terminal ././PIM_SEM2_ADS_2025
 
     mainf.py
 
@@ -39,8 +39,11 @@ Projeto de pesquisa que faz parte do método de avaliação da Instituição de 
 #COMPILATION#
     In case where this system doesn't work on first try, you may need to recompile the dynamic library, based on your operational system:
 
-    Terminal, inside PIM_FINAL directory:
+    Terminal ././PIM_SEM2_ADS_2025
 
+    
+    With GCC installed:
+    
     (windows) -> gcc -shared -o process.dll process.c 
     (Linux) -> gcc -shared -o libprocess.so -fPIC process.c
     (MacOS) -> gcc -dynamiclib -o libprocess.dylib process.c
@@ -50,6 +53,8 @@ Projeto de pesquisa que faz parte do método de avaliação da Instituição de 
 
 #RUN#
 
-    Terminal ?/?/PIM_FINAL
+    Terminal ././PIM_SEM2_ADS_2025
 
+    with PYTHON installed:
+    
     python mainf.py
